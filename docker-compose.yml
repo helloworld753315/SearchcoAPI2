@@ -1,0 +1,13 @@
+services:
+   app:
+      build:
+        context: ./app
+        dockerfile: Dockerfile
+      container_name: searchco-api
+      volumes:
+        - ./app:/app
+      # tty: true
+      # stdin_open: true
+      # command: uvicorn main:app --reload
+      ports:
+        - 8080:8080

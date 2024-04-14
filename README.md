@@ -1,0 +1,3 @@
+# SeachCoAPI
+
+シラバスをGETで返すだけのAPIです。
